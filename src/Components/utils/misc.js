@@ -11,6 +11,7 @@ export const Tag = (props) => {
                 padding: '5px 10px',
                 display: 'inline-block',
                 fontFamily: 'Righteous',
+                ...props.add,
             }}
         >
             {props.children}
